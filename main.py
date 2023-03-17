@@ -1,4 +1,4 @@
-#Find the highest number in a list of random numbers 
+#Find the biggest number in a list of random numbers 
 
 #1st eaxample
 numbers = [5, 2, 5, 9, 6, 12, 14, 7]
@@ -14,3 +14,11 @@ for num in new_numbers:
   else:
     max_num = num
 print(max_num)
+
+#3rd
+nums = [5,3,8,7,9,3,2,1]
+max = 0
+for num in nums:
+  if num > max:
+    max = num
+print(max)
